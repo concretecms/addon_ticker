@@ -1,0 +1,12 @@
+.tickerItems{ display:none; }
+.tickerDisplay { border:1px solid #ccc; font-size:12px; line-height:16px; height:21px; overflow:hidden; width:auto;}
+.tickerDisplay .noResults{ display:none }
+.tickerDisplay .txt{ padding:2px; width:auto; padding-right:68px; overflow:hidden; cursor:pointer; float:left; text-decoration:none; padding-left:2px; }
+.tickerDisplay .txt:hover { text-decoration:underline; }
+.tickerDisplay .controls{ float:right; width:66px; height:18px; padding:2px 0px 0px 0px; font-size:1px; line-height:1px; }
+.tickerDisplay .controls div{ font-size:1px; line-height:1px; float:right; background-position:center; background-repeat:no-repeat; width:17px; height:16px; margin-right:3px; cursor:pointer }
+
+.tickerDisplay .controls .next { background-image:url( next_icon.png); }
+.tickerDisplay .controls .prev { background-image:url( prev_icon.png); }
+.tickerDisplay .controls .pause { background-image:url( pause_icon.png); }
+.tickerDisplay .controls .play { background-image:url( play_icon.png); display:none }
